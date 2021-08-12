@@ -1,2 +1,8 @@
 # Guacamole-Dark
 Changes the Guacamole default white theme to a black theme
+
+install steps:
+* wget https://raw.githubusercontent.com/KennethDhoe/Guacamole-Dark/e10efcd8b8af00afb9e34b099009ca296ab789e4/branding.jar >> /etc/guacamole/extensions/branding.jarrm
+* systemctl restart guacd
+* systemctl restart tomcat9
+
